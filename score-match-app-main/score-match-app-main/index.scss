@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Verdana,Geneva,sans-serif; 
+    margin: 0;
+    background-color: #1B244A;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Graduate', cursive;
+    color: #F94F6D;
+    font-size: 100px;
+}
+
+h3 {
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+p {
+    padding: 10px 0;
+}
+
+button {
+    height: 45px;
+    width: 30%;
+    color: #9AABD8;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    width: 50%;
+    margin: auto;
+}
+
+.sub_container {
+    width: 30%;
+    margin: auto;
+}
+
+.home_score, .guess_score {
+    background-color: black;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.home_buttons, .guess_buttons {
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 0;
+}
+
+.resume {
+    padding: 0.75rem 0;
+    display: grid;
+    grid-template-columns: 120px auto;
+    background: #9AABD8;
+    max-width: 30%;
+    margin: 0px auto;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%);
+    text-align: left;
+    color: black;
+
+    p {
+        padding: 0px;
+        margin: 0px;
+        font-size: 13px;
+    }
+
+    #title {
+        font-size: 15px;
+    }
+}
+
+.resume_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.75rem;
+}
+
+.image_resume {
+    height: auto;
+    width: 70px;
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        flex-direction: column;
+    }
+    .sub_container {
+        width: 100%;
+    }
+    .resume {
+        max-width: 80%;
+    }
+}

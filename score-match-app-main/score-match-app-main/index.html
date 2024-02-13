@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Score Match App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <p>Check this app to score your match!</br>
+            It's just as simple as it sounds.
+        </p>
+
+        <div class="container">
+            <div class="sub_container">
+                <h3>HOME</h3>
+                <div class="home_score">
+                    <h1 id="home-el">0</h1>
+                </div>
+                <div class="home_buttons">
+                    <button id="home-plus1-btn" onclick="home_plus1()">+1</button>
+                    <button id="home-plus2-btn" onclick="home_plus2()">+2</button>
+                    <button id="home-plus3-btn" onclick="home_plus3()">+3</button>
+                </div>
+            </div>
+            <div class="sub_container">
+                <h3>GUEST</h3>
+                <div class="guess_score">
+                    <h1 id="guess-el">0</h1>
+                </div>
+                <div class="guess_buttons">
+                    <button id="guess-plus1-btn" onclick="guess_plus1()">+1</button>
+                    <button id="guess-plus2-btn" onclick="guess_plus2()">+2</button>
+                    <button id="guess-plus3-btn" onclick="guess_plus3()">+3</button>
+                </div>
+            </div>
+        </div>
+
+        <p>App created by:</p>
+
+        <div class="resume">
+            <div class="resume_content">
+              <img class="image_resume" src="lucca.png" alt="lucca-personal-profile"></td>
+            </div>
+            <div class="resume_text">
+              <p id="title">Lucca Ferrari</p>
+              <p>Front-End Web developer.</p>
+              <p>Sao Paulo, Brazil.</p>
+              <p>Email: luccaferrari89@gmail.com</p>
+            </div>
+        </div>
+
+
+        <script src="index.js"></script>
+    </body>
+</html>
